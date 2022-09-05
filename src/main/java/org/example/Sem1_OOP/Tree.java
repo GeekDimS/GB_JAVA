@@ -44,6 +44,6 @@ public class Tree {
         System.out.println(allRelation.findRelation("Маша", RelationType.GREAT_GRANDPARENT));
         System.out.println(allRelation.findRelation("Александр", RelationType.SIBS));
         System.out.println(allRelation.findRelation("Борис", RelationType.GRANDCHILD));
-        System.out.println(RelationType.CHILD.getCode());
+        //System.out.println(RelationType.CHILD.getCode());
     }
 }
